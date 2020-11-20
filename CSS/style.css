@@ -247,7 +247,7 @@ ul {
 }
 .about-team-list li{
   width: 270px;
-  min-height: 368px;
+  padding-bottom: 30px;
   background-color: var(--primary-white-color);
 }
 .about-team-list li:not(:last-child){
@@ -272,7 +272,7 @@ ul {
 
 .position {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
