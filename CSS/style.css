@@ -370,7 +370,6 @@ button:focus {
   margin-right: 30px;
   margin-bottom: 30px;
   padding-bottom: 20px;
-  border: 1px solid #EEEEEE;
 }
 
 /* Убираем каждому 3у элементу в списке правый отступ */
@@ -383,12 +382,29 @@ button:focus {
   margin-bottom: 0;
 }
 
+.portfolio-list img{
+  display: block;
+}
+
+.card-content{
+  /* Установит стили правой рамки */
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #EEEEEE;
+  /* Установит стили нинжней рамки */
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color:  #EEEEEE;
+  /* Установит стили левой рамки */
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color:  #EEEEEE;
+  padding: 20px 24px;
+}
+
 .portfolio-list h2 {
-  margin-top:20px;
-  margin-right: 24px;
   margin-bottom: 4px;
-  margin-left:24px;
-  
+
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -398,10 +414,8 @@ button:focus {
 }
 
 .portfolio-list p {
-  margin-top: 0;
-  margin-right: 24px;
-  margin-left: 24px;
-  margin-bottom: 0;
+  margin: 0;
+
   color: var(--primary-text-color);
 
   font-weight: 400;
