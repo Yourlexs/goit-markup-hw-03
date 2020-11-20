@@ -228,7 +228,7 @@ ul {
 /* About team info */
 
 .about-team {
-  padding: 94px 215px;
+  padding-bottom: 94px;
   background-color: var(--secondary-background-color);
 }
 
