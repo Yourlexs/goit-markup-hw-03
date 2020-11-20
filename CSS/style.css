@@ -56,6 +56,7 @@ ul {
 .container.main-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ECECEC;;
 }
 
 /* Logo */
@@ -141,7 +142,6 @@ ul {
 
 .hero {
   background-color: var(--hero-bgr-color);
-  margin-bottom: 97px;
   text-align: center;
 }
 
@@ -171,7 +171,8 @@ ul {
 /* Feature */
 
 .features.container {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .feature-list {
@@ -204,9 +205,8 @@ ul {
 }
 
 /* Чем занимается компания*/
-
-.about-us.container {
-  margin-bottom: 94px;
+.about-us.container{
+  padding-bottom: 94px;
 }
 .about-us-title {
   color: var(--title-text-color);
@@ -233,6 +233,7 @@ ul {
 /* About team info */
 
 .about-team {
+  padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--secondary-background-color);
 }
@@ -316,8 +317,8 @@ footer .container {
 /* Portfolio main */
 
 .portfolio.container {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .button-list {
