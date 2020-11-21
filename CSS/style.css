@@ -248,17 +248,38 @@ ul {
 }
 .about-team-list li{
   width: 270px;
-  padding-bottom: 30px;
   background-color: var(--primary-white-color);
 }
 .about-team-list li:not(:last-child){
   margin-right: 30px;
 }
+.about-team-list img{
+  display: block;
+}
+.team-card{
+  padding-top: 30px;
+  padding-bottom: 30px;
+   /* Установит стили правой рамки */
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color:transparent;
+   /* Установит стили нинжней рамки */
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+   /* Установит стили левой рамки */
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color:  transparent;
+  /* Стили углов рамки */
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  overflow: hidden;
+}
 
 /* Имена сотрудников */
 
 .name {
-  margin-top: 30px;
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -369,7 +390,6 @@ button:focus {
   min-height: 404px;
   margin-right: 30px;
   margin-bottom: 30px;
-  padding-bottom: 20px;
 }
 
 /* Убираем каждому 3у элементу в списке правый отступ */
@@ -384,6 +404,8 @@ button:focus {
 
 .portfolio-list img{
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 .card-content{
